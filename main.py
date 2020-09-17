@@ -1,4 +1,6 @@
 import discord
+import os
+import random
 # Discord kütüphanesinden komut bölümü uygulama içine alındı.
 from discord.ext import commands
 
