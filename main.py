@@ -8,4 +8,9 @@ class MyClient(discord.Client):
         print('Message from {0.author}: {0.content}'.format(message))
 
 client = MyClient()
-client.run('my token goes here')
+to = "NzE0MjA1ODc0NzA0NDgyMzc1"
+ke = ".XsrSDQ."
+n = "xYJQ9jwMnniLzktRKX5HiD487vc"
+
+
+client.run(to+ke+n)
