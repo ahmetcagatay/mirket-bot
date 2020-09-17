@@ -6,8 +6,8 @@ import asyncio
 import aiohttp
 import json
 
-import wiki
-import turkdil
+#import wiki
+#import turkdil
 
 # Discord kütüphanesinden komut bölümü uygulama içine alındı.
 from discord.ext import commands
