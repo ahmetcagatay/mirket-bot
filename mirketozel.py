@@ -74,6 +74,5 @@ async def splitContent(rawcontent):
     cmd = rawcontent.split(" ")[0]
     ctx = rawcontent.replace(cmd,"")[1:]
     return cmd, ctx
-test_token = "NzgxNDU3ODg3ODk2NjY2MTEz.X797Xw.L5uIOYrdT67K3SYJNe7Lulwn55M"
-mirket_ozel_token = "ODA4OTcwNDY4NTc2MTk4Njc2.YCOSdQ.KelpJYxE9cF8igPJBxul4lttpC8"
-client.run(mirket_ozel_token)
+
+client.run(token)
